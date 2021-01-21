@@ -1,0 +1,21 @@
+.container {
+    border: 1px solid grey;
+    overflow: hidden;
+    width: max-content;
+    height: max-content;
+    position: relative;
+}
+
+.img {
+    display: block;
+    position: absolute;
+}
+
+.cropper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
